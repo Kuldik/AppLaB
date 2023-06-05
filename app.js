@@ -13,7 +13,7 @@ const navLink = document.querySelectorAll('.nav__link[data-goto]');
             // высчитывапет расстояние с учетом вычета высоты intro__inner для корректной прокрутки
             window.scrollTo({
                 top: gotoBlockValue,
-                behavior: 'smoothqw'
+                behavior: 'smooth'
             });
             e.preventDefault(); // отключение ссылки, для блокировки нежелательного перехода
         }
